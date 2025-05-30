@@ -1,88 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Match Result | reQualifyMe</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.5.1/css/all.min.css" />
-    <link rel="stylesheet" href="styles.css" />
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Match Result | reQualifyMe</title>
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+   <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.5.1/css/all.min.css" />
+   <link rel="stylesheet" href="styles.css" />
 </head>
 <body id="resultPage">
-    <div class="app-container">
-        <header class="app-header">
-            <h1><i class="fas fa-clipboard-check"></i> reQualifyMe</h1>
-        </header>
-        <main class="main-content">
-            <div class="content-card result-card">
-                <a href="personalization.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Personalization</a>
+   <div class="app-container">
+       <header class="app-header">
+           <h1><i class="fas fa-clipboard-check"></i> reQualifyMe</h1>
+       </header>
+       <main class="main-content">
+           <div class="content-card result-card">
+               <a href="personalization.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Personalization</a>
 
-                <h2 class="result-title success-text">
-                    <i class="fas fa-check-circle"></i> You're a Great Fit — Apply Now!
-                </h2>
 
-                <p>Congratulations! Based on our analysis, your skills and experience align well with this role. Here are some of the key strengths from your profile that match the job description:</p>
-                <ul class="skills-list">
-                    <li><i class="fas fa-check-square skill-icon-match"></i> Leadership</li>
-                    <li><i class="fas fa-check-square skill-icon-match"></i> Problem-solving</li>
-                    <li><i class="fas fa-check-square skill-icon-match"></i> Communication</li>
-                    <li><i class="fas fa-check-square skill-icon-match"></i> Adaptability (from your profile)</li>
-                </ul>
+               <h2 class="result-title success-text">
+                   <i class="fas fa-check-circle"></i> You're a Great Fit — Apply Now!
+               </h2>
 
-                <section class="additional-info">
-                    <h3>Why You Should Apply</h3>
-                    <p>This role offers a fantastic opportunity to leverage your leadership and problem-solving skills in a dynamic environment. Your ability to adapt and communicate effectively will help you thrive in this position and contribute meaningfully to the team.</p>
 
-                    <h3>Tips to Strengthen Your Application</h3>
-                    <ul>
-                        <li>Highlight specific leadership experiences and accomplishments in your cover letter.</li>
-                        <li>Showcase examples of how you solved complex problems in previous roles or projects.</li>
-                        <li>Demonstrate adaptability by sharing situations where you successfully navigated change or uncertainty.</li>
-                        <li>Emphasize your communication skills with examples of teamwork or client interactions.</li>
-                    </ul>
+               <p>Congratulations! Based on our analysis, your skills and experience align well with this role. Here are some of the key strengths from your profile that match the job description:</p>
+               <section class="job-description">
+                   <h3>Simplified Job Description: Job Title: Fidelity Software Engineer – API Development</h3>
+                   <p><strong>What You’ll Do:</strong> Build easy-to-use tools (APIs) that help millions of people with things like saving, investing, and retirement. Work on systems that power Fidelity’s website and mobile apps. Help design and improve these tools to make sure they’re fast, reliable, and easy for other developers to use. Be part of a team that works together, shares ideas, and constantly improves.</p>
+                  
+                   <p><strong>What You Should Bring:</strong> 5+ years of experience coding, especially in Java. You know how to build web services (APIs), and you’ve worked with tools like Spring, Swagger, Docker, and Jenkins. You’ve used modern web tech like HTML, CSS, JavaScript, Angular, and Node.js. You’re familiar with databases, cloud services (like AWS), and testing tools. You’re a team player who likes helping others and learning new things.</p>
+                  
+                   <p><strong>What Makes You a Great Fit:</strong> You’re curious, love solving real problems, and enjoy building software that people actually use. You ask questions, think outside the box, and aren’t afraid to try new ideas. You care about quality and always look for ways to improve your code. You communicate well and like working with others.</p>
 
-                    <p>Applying now will give you a head start in this competitive market — your profile shows strong potential for success in this role. Best of luck!</p>
-                </section>
-            </div>
-        </main>
-        <footer class="app-footer">
-            <p>&copy; 2025 reQualifyMe</p>
-        </footer>
-    </div>
 
-    <!-- Confetti Library -->
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+                   <p><strong>Why This Role Matters:</strong> You’ll help make Fidelity’s digital experience better for millions of users. Your work will directly impact how customers manage their money.</p>
 
-    <!-- Trigger Confetti for 5 seconds -->
-    <script>
-        const duration = 5 * 1000;
-        const animationEnd = Date.now() + duration;
-        const defaults = {
-            startVelocity: 30,
-            spread: 360,
-            ticks: 60,
-            zIndex: 1000
-        };
 
-        function randomInRange(min, max) {
-            return Math.random() * (max - min) + min;
-        }
+                   <p><strong>Work Setup:</strong> This is a hybrid role: You’ll work some days in the office and some days from home.</p>
+               </section>
+               <ul class="skills-list">
+                   <li><i class="fas fa-check-square skill-icon-match"></i> Leadership</li>
+                   <li><i class="fas fa-check-square skill-icon-match"></i> Problem-solving</li>
+                   <li><i class="fas fa-check-square skill-icon-match"></i> Communication</li>
+                   <li><i class="fas fa-check-square skill-icon-match"></i> Adaptability (from your profile)</li>
+               </ul>
 
-        const interval = setInterval(function () {
-            const timeLeft = animationEnd - Date.now();
 
-            if (timeLeft <= 0) {
-                return clearInterval(interval);
-            }
+               <section class="additional-info">
+                   <h3>Why You Should Apply</h3>
+                   <p>This role offers a fantastic opportunity to leverage your leadership and problem-solving skills in a dynamic environment. Your ability to adapt and communicate effectively will help you thrive in this position and contribute meaningfully to the team.</p>
 
-            confetti(Object.assign({}, defaults, {
-                particleCount: 50,
-                origin: {
-                    x: randomInRange(0.1, 0.9),
-                    y: Math.random() - 0.2
-                }
-            }));
-        }, 250);
-    </script>
+
+                   <h3>Tips to Strengthen Your Application</h3>
+                   <ul>
+                       <li>Highlight specific leadership experiences and accomplishments in your cover letter.</li>
+                       <li>Showcase examples of how you solved complex problems in previous roles or projects.</li>
+                       <li>Demonstrate adaptability by sharing situations where you successfully navigated change or uncertainty.</li>
+                       <li>Emphasize your communication skills with examples of teamwork or client interactions.</li>
+                   </ul>
+
+
+                   <p>Applying now will give you a head start in this competitive market — your profile shows strong potential for success in this role. Best of luck!</p>
+               </section>
+           </div>
+       </main>
+       <footer class="app-footer">
+           <p>&copy; 2025 reQualifyMe</p>
+       </footer>
+   </div>
+
+
+   <!-- Confetti Library -->
+   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+
+   <!-- Trigger Confetti for 5 seconds -->
+   <script>
+       const duration = 5 * 1000;
+       const animationEnd = Date.now() + duration;
+       const defaults = {
+           startVelocity: 30,
+           spread: 360,
+           ticks: 60,
+           zIndex: 1000
+       };
+
+
+       function randomInRange(min, max) {
+           return Math.random() * (max - min) + min;
+       }
+
+
+       const interval = setInterval(function () {
+           const timeLeft = animationEnd - Date.now();
+
+
+           if (timeLeft <= 0) {
+               return clearInterval(interval);
+           }
+
+
+           confetti(Object.assign({}, defaults, {
+               particleCount: 50,
+               origin: {
+                   x: randomInRange(0.1, 0.9),
+                   y: Math.random() - 0.2
+               }
+           }));
+       }, 250);
+   </script>
 </body>
 </html>
+
+

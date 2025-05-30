@@ -1,7 +1,7 @@
 # reQualify Me
 
 
-**reQualify Me** is a website designed to help individuals—particularly women—redefine what it means to be qualified for a job.
+**reQualify Me** is a website designed to help individuals, particularly women, redefine what it means to be qualified for a job.
 
 
 reQualify Me takes in a user's **resume** and **soft skills** to generate a general overview of their strengths. When a user finds a job they're interested in, they can input the **job description** to receive a report on whether they are qualified for the role.
@@ -35,4 +35,4 @@ While not implemented yet, an AI model will be trained to:
 - Provide personalized feedback and guidance.
 
 
-To empower users—especially women—to apply confidently for roles even if they don’t meet every listed requirement, promoting a more inclusive and realistic understanding of job qualifications.
+To empower users, especially women, to apply confidently for roles even if they don’t meet every listed requirement, promoting a more inclusive and realistic understanding of job qualifications.
